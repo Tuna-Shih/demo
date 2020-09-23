@@ -1,5 +1,11 @@
 import React from 'react';
 
-const Home = () => <h1>XD</h1>;
+const Home = () => (
+  <>
+    <p>menu</p>
+    <p>account</p>
+    <p>pictures</p>
+  </>
+);
 
 export default React.memo(Home);

@@ -1,12 +1,11 @@
 import React from 'react';
 
+import UserData from './UserData';
 import styles from './styles/UserInformation.less';
 
 const UserInformation = () => (
   <div className={styles.root}>
-    <img src="/memopresso.jpg" alt="memopresso" />
-
-    <div></div>
+    <UserData />
   </div>
 );
 

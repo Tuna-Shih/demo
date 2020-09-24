@@ -6,7 +6,7 @@ const Home = () => (
   <>
     <p>menu</p>
     <UserInformation />
-    <p>pictures</p>
+    <p>footer</p>
   </>
 );
 

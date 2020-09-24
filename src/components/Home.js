@@ -1,10 +1,12 @@
 import React from 'react';
 
+import UserInformation from './UserInformation';
+
 const Home = () => (
   <>
     <p>menu</p>
-    <p>account</p>
-    <p>pictures</p>
+    <UserInformation />
+    <p>footer</p>
   </>
 );
 

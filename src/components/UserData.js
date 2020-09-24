@@ -4,7 +4,7 @@ import { Row, Col, Button } from 'antd';
 import styles from './styles/UserData.less';
 
 const UserData = () => (
-  <Row>
+  <Row className={styles.root}>
     <Col span={8} className={styles.image}>
       <img src="/memopresso.jpg" alt="memopresso" />
     </Col>

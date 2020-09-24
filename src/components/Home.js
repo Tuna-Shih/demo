@@ -1,9 +1,11 @@
 import React from 'react';
 
+import UserInformation from './UserInformation';
+
 const Home = () => (
   <>
     <p>menu</p>
-    <p>account</p>
+    <UserInformation />
     <p>pictures</p>
   </>
 );

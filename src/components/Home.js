@@ -1,12 +1,13 @@
 import React from 'react';
 
 import ToolBar from './ToolBar';
+import UserInformation from './UserInformation';
 
 const Home = () => (
   <>
     <ToolBar />
-    <p>account</p>
-    <p>pictures</p>
+    <UserInformation />
+    <p>footer</p>
   </>
 );
 

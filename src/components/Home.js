@@ -1,8 +1,10 @@
 import React from 'react';
 
+import ToolBar from './ToolBar';
+
 const Home = () => (
   <>
-    <p>menu</p>
+    <ToolBar />
     <p>account</p>
     <p>pictures</p>
   </>

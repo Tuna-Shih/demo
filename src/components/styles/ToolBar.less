@@ -1,26 +1,35 @@
 .root {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0px 200px 0px 200px;
+
   :global(.ant-row) {
-    position: fixed;
-    text-align: center;
     display: flex;
     align-items: center;
     width: 100%;
-    top: 0px;
-    z-index: 1;
-    padding: 10px 50px 10px 50px;
-    border-bottom: 1px solid #dbdbdb;
-    background-color: white;
+    padding: 10px 100px 10px 100px;
+    margin: 0px 200px 0px 200px;
   }
 }
 
 .searchBar {
-  width: 70%;
+  width: 80%;
 }
 
 .tools {
-  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
 
   > span {
-    padding-left: 20px;
+    margin-left: 20px;
   }
 }

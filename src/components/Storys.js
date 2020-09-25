@@ -5,13 +5,13 @@ import styles from './styles/Storys.less';
 
 const Storys = () => {
   const data = [
-    { id: uuidv4(), image: './leopard.jpg', article: 'leopard' },
-    { id: uuidv4(), image: './leopard.jpg', article: 'leopard' },
-    { id: uuidv4(), image: './leopard.jpg', article: 'leopard' },
-    { id: uuidv4(), image: './leopard.jpg', article: 'leopard' },
-    { id: uuidv4(), image: './leopard.jpg', article: 'leopard' },
-    { id: uuidv4(), image: './leopard.jpg', article: 'leopard' },
-    { id: uuidv4(), image: './leopard.jpg', article: 'leopard' },
+    { id: uuidv4(), image: '/leopard.jpg', article: 'leopard' },
+    { id: uuidv4(), image: '/leopard.jpg', article: 'leopard' },
+    { id: uuidv4(), image: '/leopard.jpg', article: 'leopard' },
+    { id: uuidv4(), image: '/leopard.jpg', article: 'leopard' },
+    { id: uuidv4(), image: '/leopard.jpg', article: 'leopard' },
+    { id: uuidv4(), image: '/leopard.jpg', article: 'leopard' },
+    { id: uuidv4(), image: '/leopard.jpg', article: 'leopard' },
   ];
 
   return (

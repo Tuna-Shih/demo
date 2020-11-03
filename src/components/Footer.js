@@ -21,9 +21,11 @@ const Footer = () => {
 
   return (
     <div className={styles.root}>
-      {data.map(element => (
-        <a key={element}>{element}</a>
-      ))}
+      <div className={styles.tag}>
+        {data.map(element => (
+          <a key={element}>{element}</a>
+        ))}
+      </div>
     </div>
   );
 };

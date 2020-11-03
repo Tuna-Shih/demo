@@ -1,15 +1,24 @@
 .root {
-  margin: 50px 100px;
+  margin: 50px 0px;
   font-size: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  a {
-    margin: 0px 5px;
-    color: rgb(11, 104, 243);
-  }
+  .tag {
+    position: relative;
+    width: 1000px;
 
-  > :last-child {
-    position: absolute;
-    right: 100px;
-    color: rgba(var(--f52, 142, 142, 142), 1);
+    > a {
+      margin: 0px 5px;
+      color: #00376b;
+    }
+
+    :last-child {
+      position: absolute;
+      right: 0px;
+      color: rgba(var(--f52, 142, 142, 142), 1);
+    }
   }
 }

@@ -1,17 +1,18 @@
 import React from 'react';
-import { Button } from 'antd';
 
 import useLoadData from './hooks/useLoadData';
+import useHandleScroll from './hooks/useHandleScroll';
 import styles from './styles/BreadcrumbAndImage.less';
 
 const BreadcrumbAndImage = () => {
   const { data, loadData } = useLoadData();
 
+  useHandleScroll(loadData);
+
   return (
     <>
       <div className={styles.breadcrumb}>
         <a>貼文</a>
-        <a>IGTV</a>
         <a>已標註</a>
       </div>
 
@@ -22,10 +23,6 @@ const BreadcrumbAndImage = () => {
           ))}
         </div>
       ))}
-
-      <div className={styles.loadMore}>
-        <Button onClick={loadData}>Load More</Button>
-      </div>
     </>
   );
 };

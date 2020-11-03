@@ -23,9 +23,13 @@ export default () => {
   }, [data, endCursor]);
 
   useEffect(() => {
-    if (!data.length) loadData();
+    if (!data.length) {
+      loadData();
+    }
 
-    if (data.length % 3) loadData();
+    if (data.length % 3) {
+      loadData();
+    }
   }, [data, loadData]);
 
   return { data, loadData };
